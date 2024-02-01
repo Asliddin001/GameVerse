@@ -39,15 +39,17 @@ export const Box = ({ data }) => {
               </div>
               <div className={styles.box__pagination}>
                 {item.categories.map((category, categoryIndex) => (
-                  <React.Fragment key={categoryIndex}>
-                    <p>{category}</p>
+                  <div key={categoryIndex}>
+                    <p className={styles.pagination__p}>{category}</p>
                     {categoryIndex < item.categories.length - 1 && (
-                      <img
-                        src={right__arrow}
-                        alt={`arrow-right-${categoryIndex}`}
-                      />
+                      <span>
+                        <img
+                          src={right__arrow}
+                          alt={`arrow-right-${categoryIndex}`}
+                        />
+                      </span>
                     )}
-                  </React.Fragment>
+                  </div>
                 ))}
               </div>
               <div className={styles.box__title}>

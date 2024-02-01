@@ -6,6 +6,7 @@ import profileImg1 from "/public/mock-imges/img/box-profile-img-1.png";
 import profileImg2 from "/public/mock-imges/img/box-profile-img-2.png";
 import profileImg3 from "/public/mock-imges/img/box-profile-img-3.png";
 import { Box } from "./box/box";
+// import { Comunity_card } from "./comunity_card/comunity_card";
 
 const dataArray = [
   {
@@ -60,6 +61,14 @@ const dataArray = [
     },
   },
 ];
+const communityData = [
+  {
+    title: "Сообщество и статьи про игры",
+    articleCount: 1243,
+    content:
+      "Здесь вы найдете последние публикации на самые разнообразные темы...",
+  },
+];
 
 export const Community = () => {
   return (
@@ -70,9 +79,15 @@ export const Community = () => {
             <Box data={dataArray} />
           </div>
           <div className={styles.community__content}>
-            <div className="card">
-              
-            </div>
+            {/* {communityData.map((item, index) => (
+              <Comunity_card
+                key={index}
+                title={item.title}
+                articleCount={item.articleCount}
+                content={item.content}
+              />
+            ))} */}
+            <div className={styles.community__info}></div>
           </div>
         </div>
       </div>

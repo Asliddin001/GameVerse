@@ -46,22 +46,32 @@
 }
 
 .box__pagination {
+    padding-right: 1rem;
     display: flex;
-    gap: .3rem;
-
-
-}
-
-.box__pagination {
-    white-space: nowrap;
+    gap: 5px;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
 
-.box__pagination>p {
+.box__pagination>div {
+    display: flex;
+    gap: 3px;
+    overflow: hidden;
+}
+
+.box__pagination>div>span {
+    width: 3.3px;
+    overflow: hidden;
+}
+
+.box__pagination>div>span>img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pagination__p {
     color: var(--white-2);
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 200;
     text-decoration-line: underline;
 }
 
