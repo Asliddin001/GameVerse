@@ -1,0 +1,31 @@
+.nav__bg {
+    position: fixed;
+    width: 100vw;
+    background: white;
+    z-index: 10;
+}
+
+nav {
+    padding: 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav>ul>.btns {
+    margin-left: 1.4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+nav>ul>li>a {
+    color: var(--black-gray);
+    font-size: 1.4rem;
+    font-weight: 400;
+}

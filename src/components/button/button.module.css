@@ -1,0 +1,26 @@
+button {
+    padding: 1.1rem 2.2rem 1.2rem 2.1rem;
+    background: var(--white-3);
+    color: var(--black-gray);
+    font-size: 1.4rem;
+    font-weight: 400;
+    border-radius: 1rem;
+}
+
+.primary {
+    background: var(--white-2);
+    border: 1px solid var(--black-gray);
+    padding: 1.1rem 2.3rem 1.2rem 2.2rem;
+}
+
+.secondary {
+    border: 1px solid var(--black-gray);
+    background: var(--white-2);
+    padding: 1.1rem 2.2rem 1.2rem 2.1rem;
+}
+
+.tertiary {
+    border: 1px solid var(--white-2);
+    background: transparent;
+    padding: 1.1rem 2.3rem 1.2rem 2.2rem;
+}

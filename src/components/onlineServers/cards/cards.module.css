@@ -1,0 +1,81 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.4rem;
+}
+
+.card {
+    position: relative;
+    width: 21.2rem;
+    height: 19.3rem;
+    background: url(../../../../public/mock-imges/icons/card-bg-1.svg) center/contain no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 1rem;
+    padding-bottom: 1.3rem;
+    color: var(--white);
+}
+
+.card:nth-child(2) {
+    background: url(../../../../public/mock-imges/icons/card-bg-2.svg) center/contain no-repeat;
+}
+
+.card:nth-child(3) {
+    background: url(../../../../public/mock-imges/icons/card-bg-3.svg) center/contain no-repeat;
+}
+
+.card:nth-child(4) {
+    background: url(../../../../public/mock-imges/icons/card-bg-4.svg) center/contain no-repeat;
+}
+
+
+.cards__img img:nth-child(1) {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.cards__img img:nth-child(2) {
+    position: absolute;
+    top: -25%;
+    right: -20%;
+}
+
+.card:nth-child(2) .cards__img img:nth-child(2) {
+    position: absolute;
+    top: -6%;
+    right: 1%;
+}
+
+.card:nth-child(3) .cards__img img:nth-child(2) {
+    position: absolute;
+    top: -19%;
+    right: 10%;
+}
+
+.card:nth-child(4) .cards__img img:nth-child(2) {
+    position: absolute;
+    top: -11%;
+    right: 11%;
+}
+
+.cards__content {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.cards__content>p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.cards__content>span {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
