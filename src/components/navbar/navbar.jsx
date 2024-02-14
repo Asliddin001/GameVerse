@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./navbar.module.css";
-import logo from "../../../public/mock-imges/icons/logo.svg";
+import logo from "/mock-imges/icons/logo.svg";
 import { Button } from "../button/button";
 
 export const Navbar = () => {

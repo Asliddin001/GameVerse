@@ -46,34 +46,29 @@
 }
 
 .box__pagination {
-    padding-right: 1rem;
+    width: 80%;
     display: flex;
-    gap: 5px;
-    overflow: hidden;
+    gap: .3rem;
 }
 
-.box__pagination>div {
-    display: flex;
-    gap: 3px;
+.box__pagination {
+    white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.box__pagination>div>span {
-    width: 3.3px;
-    overflow: hidden;
+.box__pagination>p:nth-child(1) {
+    width: 90%;
 }
 
-.box__pagination>div>span>img {
-    width: 100%;
-    overflow: hidden;
-}
-
-.pagination__p {
+.box__pagination>p {
+    text-align: left;
     color: var(--white-2);
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 300;
     text-decoration-line: underline;
 }
+
 
 .box__title {
     display: flex;

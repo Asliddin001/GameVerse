@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./hero.module.css";
-import white_logo from "../../../public/mock-imges/icons/white-logo.svg";
-import mouse_bottom from "../../../public/mock-imges/icons/mouse-bottom.svg";
+import white_logo from "/mock-imges/icons/white-logo.svg";
+import mouse_bottom from "/mock-imges/icons/mouse-bottom.svg";
 
 export const Hero = () => {
   const handleScroll = () => {

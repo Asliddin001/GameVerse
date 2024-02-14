@@ -38,20 +38,23 @@ export const Box = ({ data }) => {
                 ))}
               </div>
               <div className={styles.box__pagination}>
-                {item.categories.map((category, categoryIndex) => (
-                  <div key={categoryIndex}>
-                    <p className={styles.pagination__p}>{category}</p>
-                    {categoryIndex < item.categories.length - 1 && (
-                      <span>
-                        <img
-                          src={right__arrow}
-                          alt={`arrow-right-${categoryIndex}`}
-                        />
-                      </span>
-                    )}
+                <p>{item.categories_title}</p>
+                <span>
+                  <img src={right__arrow} alt="arrow right" />
+                </span>
+                <p>{item.categories_type}</p>
+                <span>
+                  <img src={right__arrow} alt="arrow right" />
+                </span>
+
+                {/* {item.id === 3 && (
+                  <div>
+                    <br />
                   </div>
-                ))}
+                )} */}
+                <p>{item.categories_usage}</p>
               </div>
+
               <div className={styles.box__title}>
                 <h2>{item.title}</h2>
                 <p>{item.content}</p>
