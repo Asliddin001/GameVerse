@@ -3,11 +3,14 @@ import styles from "./community.module.css";
 import { Box } from "./box/box";
 import { ComunityCard } from "./comunity_card/comunity_card";
 import { communityData, dataArray } from "../../data/data";
+import { Aside_cards } from "./aside_cards/aside_cards";
+import { Community_info_head } from "./community_info_head/Community_info_head";
+import { Rigth_info_cards } from "./right_info_cards/Rigth_info_cards";
 
 export const Community = () => {
   return (
     <>
-      <div className="container">
+      <div className='container'>
         <div className={styles.community}>
           <div className={styles.community__boxs}>
             <Box data={dataArray} />
@@ -22,19 +25,10 @@ export const Community = () => {
               />
             ))}
             <div className={styles.community__info}>
-              <div className={styles.community__info__head}>
-                <h3>Наши плюсы:</h3>
-                <p>
-                  У нас имеется большое количество преимуществ по сравнению с
-                  другими сайтами, но и помимо этого главные наши преимущества -
-                  это честность, хорошее отношение к пользователям и большое
-                  количество обновлений сайта.
-                </p>
-              </div>
+              <Community_info_head />
               <div className={styles.community__info__content}>
-                <div className={styles.community__item}>
-                  
-                </div>
+                <Aside_cards />
+                <Rigth_info_cards />
               </div>
             </div>
           </div>

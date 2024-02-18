@@ -1,0 +1,31 @@
+.info_card {
+  border-radius: 5px;
+  display: flex;
+  gap: 7px;
+  padding: 19px 11px;
+  margin-top: 5px;
+  background: rgb(236, 236, 236);
+}
+.info_card img {
+  width: 30px;
+  height: 30px;
+}
+.info_card h3 {
+  color: rgb(87, 87, 87);
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.info_card2 {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 19px 11px;
+  margin-top: 5px;
+  background: rgb(236, 236, 236);
+}
