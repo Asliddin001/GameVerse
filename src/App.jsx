@@ -3,7 +3,6 @@ import "./styles/App.css";
 import { Navbar } from "./components/navbar/navbar";
 import { Hero } from "./components/hero/hero";
 import { OnlineServers } from "./components/onlineServers/onlineServers";
-import { Community } from "./components/community/community";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <Navbar />
       <Hero />
       <OnlineServers />
-      <Community />
     </>
   );
 }
