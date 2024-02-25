@@ -6,7 +6,7 @@
 .box {
     width: 24.1rem;
     height: 40rem;
-    background: url(../../../../public/mock-imges/img/box-1-bg.png) no-repeat center center/contain;
+    background: url(/mock-imges/img/box-1-bg.png) no-repeat center center/contain;
     padding: 1rem 1.3rem 1.8rem 1.4rem;
     display: flex;
     flex-direction: column;

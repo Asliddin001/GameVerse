@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./comunity_card.module.css";
-import hat from "/public/mock-imges/icons/hat.png";
+import hat from "/mock-imges/icons/hat.png";
 
 export const ComunityCard = ({ title, articleCount, content }) => (
   <div className={styles.card}>

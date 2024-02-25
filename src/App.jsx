@@ -1,16 +1,17 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
 import "./styles/App.css";
-import { Navbar } from "./components/navbar/navbar";
-import { Hero } from "./components/hero/hero";
-import { OnlineServers } from "./components/onlineServers/onlineServers";
+import { Home } from "./pages/home/home";
+import { Navbar } from "./components/layouts/navbar/navbar";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
-      <Hero />
-      <OnlineServers />
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </div>
   );
 }
 

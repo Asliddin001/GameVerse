@@ -1,13 +1,13 @@
-import star from "/public/mock-imges/icons/star.svg";
-import white_stars from "/public/mock-imges/icons/white-star.svg";
-import profileImg1 from "/public/mock-imges/img/box-profile-img-1.png";
-import profileImg2 from "/public/mock-imges/img/box-profile-img-2.png";
-import profileImg3 from "/public/mock-imges/img/box-profile-img-3.png";
+import star from "/mock-imges/icons/star.svg";
+import white_stars from "/mock-imges/icons/white-star.svg";
+import profileImg1 from "/mock-imges/img/box-profile-img-1.png";
+import profileImg2 from "/mock-imges/img/box-profile-img-2.png";
+import profileImg3 from "/mock-imges/img/box-profile-img-3.png";
 
 const dataArray = [
   {
     id: 1,
-    backgroundImg: "/public/mock-imges/img/box-1-bg.png",
+    backgroundImg: "/mock-imges/img/box-1-bg.png",
     comments: 37,
     likes: 15,
     dislikes: -2,
@@ -28,7 +28,7 @@ const dataArray = [
   },
   {
     id: 2,
-    backgroundImg: "/public/mock-imges/img/box-2-bg.png",
+    backgroundImg: "/mock-imges/img/box-2-bg.png",
     comments: 182,
     likes: 75,
     dislikes: -4,
@@ -48,7 +48,7 @@ const dataArray = [
   },
   {
     id: 3,
-    backgroundImg: "/public/mock-imges/img/box-3-bg.png",
+    backgroundImg: "/mock-imges/img/box-3-bg.png",
     comments: 182,
     likes: 75,
     dislikes: -4,

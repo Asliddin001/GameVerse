@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./onlineServers.module.css";
-import stats from "../../../public/mock-imges/icons/stats.svg";
+import stats from "/mock-imges/icons/stats.svg";
 import { Cards } from "./cards/cards";
 
 export const OnlineServers = () => {

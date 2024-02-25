@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./box.module.css";
-import comment from "/public/mock-imges/icons/comments.svg";
-import like from "/public/mock-imges/icons/like.svg";
-import dislike from "/public/mock-imges/icons/dislike.svg";
-import right__arrow from "/public/mock-imges/icons/right-arrow.svg";
+import comment from "/mock-imges/icons/comments.svg";
+import like from "/mock-imges/icons/like.svg";
+import dislike from "/mock-imges/icons/dislike.svg";
+import right__arrow from "/mock-imges/icons/right-arrow.svg";
 
 export const Box = ({ data }) => {
   return (

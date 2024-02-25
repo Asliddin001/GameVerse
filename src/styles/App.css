@@ -2,48 +2,49 @@
 
 
 :root {
-  --white: #fff;
-  --white-2: #fafafa;
-  --white-3: #d9d9d9;
-  --white-4: #ececec;
-  --black-gray: #575757;
-  --black-1: #2d2d2d;
-  --green: #58b767;
-  --green-2: #169a23;
-  --red: #cc4747;
-  --red-2: #cc4747;
-  --red-3: #b03940;
-  --bule: #4f95ff;
-  --blue-2: #95b4ef;
-  --orange: #ffa34f;
+    --white: #fff;
+    --white-2: #fafafa;
+    --white-3: #d9d9d9;
+    --white-4: #ececec;
+    --black-gray: #575757;
+    --black-1: #2d2d2d;
+    --green: #58b767;
+    --green-2: #169a23;
+    --red: #cc4747;
+    --red-2: #cc4747;
+    --red-3: #b03940;
+    --bule: #4f95ff;
+    --blue-2: #95b4ef;
+    --orange: #ffa34f;
 }
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 button {
-  cursor: pointer;
-  border: none;
+    cursor: pointer;
+    border: none;
 }
 
 .container {
-  max-width: 143.7rem;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 2.5rem;
+    max-width: 143.7rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2.5rem;
 }
 
 body {
-  background: #d9d9d9;
-  font-family: "Montserrat", sans-serif;
+    background: #d9d9d9;
+    font-family: "Montserrat", sans-serif;
 }

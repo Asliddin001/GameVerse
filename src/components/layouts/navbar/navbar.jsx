@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./navbar.module.css";
 import logo from "/mock-imges/icons/logo.svg";
-import { Button } from "../button/button";
+import { Button } from "../../common/button/button";
 
 export const Navbar = () => {
   return (

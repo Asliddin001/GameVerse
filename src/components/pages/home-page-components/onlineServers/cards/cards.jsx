@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./cards.module.css";
-import phoneIcon from "../../../../public/mock-imges/icons/phone.svg";
-import pcIcon from "../../../../public/mock-imges/icons/pc.svg";
-import card1Image from "../../../../public/mock-imges/img/card-1.png";
-import card2Image from "../../../../public/mock-imges/img/card-2.png";
-import card3Image from "../../../../public/mock-imges/img/card-3.png";
-import card4Image from "../../../../public/mock-imges/img/card-4.png";
-import streamIcon from "../../../../public/mock-imges/icons/stream-on.svg";
+import phoneIcon from "/mock-imges/icons/phone.svg";
+import pcIcon from "/mock-imges/icons/pc.svg";
+import card1Image from "/mock-imges/img/card-1.png";
+import card2Image from "/mock-imges/img/card-2.png";
+import card3Image from "/mock-imges/img/card-3.png";
+import card4Image from "/mock-imges/img/card-4.png";
+import streamIcon from "/mock-imges/icons/stream-on.svg";
 
 export const Cards = () => {
   return (

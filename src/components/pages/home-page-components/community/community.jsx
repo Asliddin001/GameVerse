@@ -2,15 +2,14 @@ import React from "react";
 import styles from "./community.module.css";
 import { Box } from "./box/box";
 import { ComunityCard } from "./comunity_card/comunity_card";
-import { communityData, dataArray } from "../../data/data";
-import { Aside_cards } from "./aside_cards/aside_cards";
+import { communityData, dataArray } from "../../../../data/data";
 import { Community_info_head } from "./community_info_head/Community_info_head";
+import { Aside_cards } from "./aside_cards/Aside_cards.jsx";
 import { Rigth_info_cards } from "./right_info_cards/Rigth_info_cards";
-
 export const Community = () => {
   return (
     <>
-      <div className='container'>
+      <div className="container">
         <div className={styles.community}>
           <div className={styles.community__boxs}>
             <Box data={dataArray} />

@@ -9,7 +9,7 @@
     position: relative;
     width: 21.2rem;
     height: 19.3rem;
-    background: url(../../../../public/mock-imges/icons/card-bg-1.svg) center/contain no-repeat;
+    background: url(/mock-imges/icons/card-bg-1.svg) center/contain no-repeat;
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -19,15 +19,15 @@
 }
 
 .card:nth-child(2) {
-    background: url(../../../../public/mock-imges/icons/card-bg-2.svg) center/contain no-repeat;
+    background: url(/mock-imges/icons/card-bg-2.svg) center/contain no-repeat;
 }
 
 .card:nth-child(3) {
-    background: url(../../../../public/mock-imges/icons/card-bg-3.svg) center/contain no-repeat;
+    background: url(/mock-imges/icons/card-bg-3.svg) center/contain no-repeat;
 }
 
 .card:nth-child(4) {
-    background: url(../../../../public/mock-imges/icons/card-bg-4.svg) center/contain no-repeat;
+    background: url(/mock-imges/icons/card-bg-4.svg) center/contain no-repeat;
 }
 
 
