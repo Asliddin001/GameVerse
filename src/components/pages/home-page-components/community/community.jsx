@@ -6,6 +6,7 @@ import { communityData, dataArray } from "../../../../data/data";
 import { Community_info_head } from "./community_info_head/Community_info_head";
 import { Aside_cards } from "./aside_cards/Aside_cards.jsx";
 import { Rigth_info_cards } from "./right_info_cards/Rigth_info_cards";
+import { Comunity_card_continuation } from "./comunity_card_continuation/comunity_card_continuation";
 export const Community = () => {
   return (
     <>
@@ -13,6 +14,7 @@ export const Community = () => {
         <div className={styles.community}>
           <div className={styles.community__boxs}>
             <Box data={dataArray} />
+            <Comunity_card_continuation/>
           </div>
           <div className={styles.community__content}>
             {communityData.map((item, index) => (
