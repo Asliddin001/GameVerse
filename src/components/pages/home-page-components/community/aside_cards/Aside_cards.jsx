@@ -5,6 +5,7 @@ import edit from "/mock-imges/icons/edit.svg";
 import accept from "/mock-imges/icons/accept.svg";
 import blueStar from "/mock-imges/icons/blue-stars.svg";
 import fiolet from "/mock-imges/icons/fiolet-pc.svg";
+import rate from "../../../../../../public/mock-imges/icons/rate.svg";
 
 export const Aside_cards = () => {
   return (
@@ -19,7 +20,7 @@ export const Aside_cards = () => {
           <p>Короткий срок модерации статей</p>
         </div>
       </div>
-      <Info_cards url={blueStar}>
+      <Info_cards url={rate}>
         Отзывы от пользователей на статьи по 5-ти бальной системе с
         комментариями
       </Info_cards>

@@ -14,9 +14,9 @@
 }
 .community__item__card h3 {
   color: rgb(87, 87, 87);
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-size: 11px;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .community__item__right__mini__card {
@@ -27,7 +27,15 @@
   justify-content: center;
   border-radius: 5px;
   background: rgb(236, 236, 236);
-  padding: 12px 3px 12px 10px;
+  padding: 12px 2px 12px 10px;
+
+ 
+}
+.community__item__right__mini__card p {
+  color: rgb(87, 87, 87);
+  font-family: 'Montserrat';
+  font-size: 11px;
+  font-weight: 600;
 }
 
 .community__item {

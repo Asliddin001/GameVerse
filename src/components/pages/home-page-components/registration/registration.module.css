@@ -1,0 +1,67 @@
+.registration {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.5rem 0;
+  margin: 3rem 0;
+  border-radius: 0.63rem;
+  backdrop-filter: blur(0.25rem);
+  background: rgb(44, 98, 238);
+  gap: 1.5rem;
+  background-image: url("/public/mock-imges/img/joistic-board.png"),
+    url("/public/mock-imges/img/pc-case.png");
+  background-position: 290px 16px, 970px 6px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 196px 196px, 236px 236px;
+}
+
+.registration > h4 {
+  color: var(--white-2);
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.registration > p {
+  max-width: 630px;
+  color: var(--white-4);
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+.btns > button {
+  border-radius: 1rem;
+  padding: 1.1rem 2.1rem;
+  background: var(--white-2);
+  color: var(--black-gray);
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.btns > button:nth-child(2) {
+  box-sizing: border-box;
+  border: 1px solid var(--white-2);
+  background: transparent;
+  /* padding: 1.1rem 2.2rem; */
+  color: var(--white-2);
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  letter-spacing: 0%;
+  text-align: left;
+}

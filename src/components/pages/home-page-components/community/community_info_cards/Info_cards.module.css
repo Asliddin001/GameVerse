@@ -2,7 +2,7 @@
   border-radius: 5px;
   display: flex;
   gap: 7px;
-  padding: 19px 11px;
+  padding: 13px 11px;
   margin-top: 5px;
   background: rgb(236, 236, 236);
 }
@@ -12,9 +12,9 @@
 }
 .info_card h3 {
   color: rgb(87, 87, 87);
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-size: 11px;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 13px;
   letter-spacing: 0%;
   text-align: left;

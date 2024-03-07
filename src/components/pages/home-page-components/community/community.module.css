@@ -6,3 +6,7 @@
 .community__info {
   margin-left: 120px;
 }
+.community__info__content {
+  display: flex;
+  gap: 5px;
+}
